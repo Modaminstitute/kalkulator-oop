@@ -1,0 +1,70 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.result-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.result-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.result-row h2 {
+    font-size: 1.4rem;
+    color: #28a745; /* For successful results */
+    margin: 0;
+}
+
+.result-row h2.error {
+    color: #dc3545; /* For error messages */
+}
+
+.result-row p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  background-color: #f5f5f7; /* Softer background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  color: #333; /* Text color */
+}
+
+.form-container {
+  background-color: #ffffff; /* White background for form */
+  padding: 40px; /* Increased padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  width: 400px; /* Adjusted width */
+  text-align: center; /* Center text inside form */
+}
+
+h2 {
+  font-size: 28px; /* Larger heading for better readability */
+  margin-bottom: 20px; /* Added more spacing below heading */
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px; /* Uniform spacing between form fields */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full-width input */
+  padding: 15px; /* Increased padding for better usability */
+  margin: 8px 0; /* Spacing between inputs */
+  border: 1px solid #ddd; /* Light border for inputs */
+  border-radius: 5px; /* Softer corners */
+  box-sizing: border-box; /* Include padding and border in element's width */
+  font-size: 16px; /* Readable text size */
+  background-color: #f9f9f9; /* Light background for input fields */
+  transition: border 0.3s ease; /* Smooth transition on focus */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 1px solid #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+input[type="submit"] {
+  width: 100%; /* Full-width submit button */
+  padding: 15px; /* Larger clickable area */
+  background-color: #007bff; /* Professional blue button */
+  color: #fff; /* White text on button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button */
+  font-size: 18px; /* Larger button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.back-btn {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.back-btn::before {
+  content: "\2190"; /* Unicode left arrow */
+  margin-right: 8px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px; /* Footer at bottom */
+  width: 100%;
+  text-align: center; /* Centered text */
+  color: #999; /* Subtle color for footer text */
+}
+
+.credit {
+  font-size: 14px; /* Smaller footer text */
+  margin-top: 20px;
+}

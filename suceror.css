@@ -1,0 +1,78 @@
+/* General Page Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, clean font */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f9fa; /* Light background for professional look */
+}
+
+/* Container for the login messages */
+.container {
+  width: 40%; /* Slightly narrower width */
+  padding: 40px; /* Increased padding */
+  border: 1px solid #dee2e6; /* Lighter border */
+  border-radius: 12px; /* Smooth corner */
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  text-align: center;
+}
+
+/* Success and error messages styling */
+.success, .error {
+  font-size: 1.4em; /* Consistent font size */
+  font-weight: 600; /* Semi-bold font */
+  padding: 15px; /* More padding for clarity */
+  margin: 20px 0;
+  border-radius: 8px; /* Rounded corners for the messages */
+  width: 100%; /* Full width inside the container */
+  box-sizing: border-box;
+}
+
+.success {
+  background-color: #d4edda; /* Soft green background */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb; /* Matching border */
+}
+
+.error {
+  background-color: #f8d7da; /* Soft red background */
+  color: #721c24; /* Dark red text */
+  border: 1px solid #f5c6cb; /* Matching border */
+}
+
+
+button {
+  padding: 12px 25px; 
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 8px; 
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+
+.lupaPW {
+  margin-top: 17px;
+  text-align: center;
+}
+
+.lupaPW a {
+  color: #007bff; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lupaPW a:hover {
+  color: #0056b3; 
+  text-decoration: underline; 
+}

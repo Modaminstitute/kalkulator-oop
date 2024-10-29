@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pemilihan Ketua RT</title>
+    <link rel="stylesheet" href="vote.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">PEMILIHAN KETUA RT SETEMPAT</div>
+    </header>
+
+    <div class="container">
+      <!-- Koko -->
+      <div class="candidate">
+        <h2>CALON KETUA 01</h2>
+        <img src="./images/koko.jpg" alt="Nicholas Samuel Tedja" />
+        <div class="vote-info">
+          <span id="votes-candidate-1">0</span>
+          <p id="percent-candidate-1">0%</p>
+        </div>
+        <div class="buttons">
+          <button onclick="increaseVote(1)">+</button>
+          <button onclick="decreaseVote(1)">-</button>
+        </div>
+        <h3>Nicholas Samuel Tedja</h3>
+      </div>
+
+      <!-- Azza -->
+      <div class="candidate">
+        <h2>CALON KETUA 02</h2>
+        <img src="./images/qrazza.jpg" alt="M. Ulum Azza Zoelfaqaar" />
+
+        <div class="vote-info">
+          <span id="votes-candidate-2">0</span>
+          <p id="percent-candidate-2">0%</p>
+        </div>
+        <div class="buttons">
+          <button onclick="increaseVote(2)">+</button>
+          <button onclick="decreaseVote(2)">-</button>
+        </div>
+        <h3>M. Ulum Azza Zoelfaqaar</h3>
+      </div>
+
+      <!--Table -->
+      <div class="result-table">
+        <h2>REKAPITULASI PEMILIHAN KETUA RT</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>NO</th>
+              <th>HASIL SUARA</th>
+              <th>%</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td id="table-votes-candidate-1">0</td>
+              <td id="table-percent-candidate-1">0%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td id="table-votes-candidate-2">0</td>
+              <td id="table-percent-candidate-2">0%</td>
+            </tr>
+            <tr class="total">
+              <td colspan="2">TOTAL SUARA</td>
+              <td id="total-votes">0 (0%)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="vote.js"></script>
+  </body>
+  <footer>© 2024 by Nickel M and Nicholas ST</footer>
+</html>
