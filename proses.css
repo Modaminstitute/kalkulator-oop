@@ -34,12 +34,12 @@ h1 {
 
 .result-row h2 {
     font-size: 1.4rem;
-    color: #28a745; /* For successful results */
+    color: #28a745; 
     margin: 0;
 }
 
 .result-row h2.error {
-    color: #dc3545; /* For error messages */
+    color: #dc3545; 
 }
 
 .result-row p {

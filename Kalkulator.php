@@ -1,5 +1,5 @@
 <?php
-// kalkulator.php
+
 class Calculator {
     
     public function add($bilangana, $bilanganb) {
